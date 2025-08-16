@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign up — CampusLink</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><a href="index.html">CampusLink</a></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="auth-page container">
+    <div class="form-card">
+      <h2>Create account</h2>
+      <form id="signupForm">
+        <label>Full name</label>
+        <input type="text" id="fullName" required placeholder="John Doe" />
+        <label>School email</label>
+        <input type="email" id="signupEmail" required placeholder="you@school.edu" />
+        <label>Password</label>
+        <input type="password" id="signupPassword" required placeholder="create a password" />
+        <button class="btn" type="submit">Sign up</button>
+      </form>
+      <p class="muted">Already have an account? <a href="login.html">Login</a></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

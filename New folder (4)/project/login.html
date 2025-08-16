@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — CampusLink</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><a href="index.html">CampusLink</a></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="signup.html">Sign up</a>
+    </nav>
+  </header>
+
+  <main class="auth-page container">
+    <div class="form-card">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label>Email</label>
+        <input type="email" id="loginEmail" required placeholder="you@school.edu" />
+        <label>Password</label>
+        <input type="password" id="loginPassword" required placeholder="password" />
+        <button class="btn" type="submit">Login</button>
+      </form>
+      <p class="muted">Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
